@@ -89,7 +89,7 @@ R CMD INSTALL melonnpan
 Usage
 -----
 
-MelonnPan can be run from the command line or from within R. Both methods require the same arguments, have the same options, and use the same default settings. Check out the [MelonnPan tutorial](https://bitbucket.org/biobakery/biobakery/wiki/melonnpan) for an example application.
+MelonnPan can be run from the command line or from within R. Both methods require the same arguments, have the same options, and use the same default settings. Check out the [MelonnPan tutorial](https://github.com/biobakery/biobakery/wiki/melonnpan) for an example application.
 
 -   The default `MelonnPan-Predict` function can be run by executing the script `predict_metabolites.R` from the command line or within R using the function `melonnpan.predict()`. Currently it uses a [pre-trained model](https://github.com/biobakery/melonnpan/blob/master/data/melonnpan.trained.model.txt) from the human gut based on UniRef90 gene families (functionally profiled by [HUMAnN2](http://huttenhower.sph.harvard.edu/humann2)), as described in Franzosa et al. (2019) and the original MelonnPan paper (Mallick et al., 2019), which is included in the package and can also be downloaded from the [`data/`](https://github.com/biobakery/melonnpan/blob/master/data) sub-directory.
 
