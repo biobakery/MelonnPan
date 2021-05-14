@@ -19,9 +19,9 @@ CV.ENET<-function(metab = metab,
                 lambda.choice = lambda.choice,
                 nfolds = nfolds,
                 foldid = foldid,
-                verbose=verbose, 
+                verbose = verbose, 
                 plot = plot, 
-                outputDirectory=outputDirectory){
+                outputDirectory = outputDirectory){
   
   # Print Progress
   if (verbose==TRUE) {
